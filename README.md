@@ -10,6 +10,24 @@ During my internship at PT Phapros Tbk, I assisted the EHS (Environment, Health,
 - Export result to excel and folder thats contains QR code
 - Generate QR Codes automatically
 
+# How to  make Python to .exe
+1. Install PyInstaller = pip install pyinstaller
+2. Navigate to the project directory = cd D:\QR_APAR
+3. Build the executable = pyinstaller -w app.py
+4. Wait for the build process to finish 
+dist/
+5. Location =
+dist/
+└── app/
+    └── app.exe
+6. Before running the application, copy  the following/files into the same directory as app.exe
+dist/
+└── app/
+    ├── app.exe
+    ├── sound/
+    ├── gambar/
+    └── logo_ehs.png
+    
 # How to Use
 1. Open folder dist, go to folder app, and run app.exe
 2. Choose excel file thats contain datasheet (No, Kode, Ruangan)
